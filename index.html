@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Как сделать Termux с XFCE</title>
+	<link rel="website icon" type="png" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Как сделать Termux с XFCE</h1>
+		
+		<h1>⚠️ ПРЕДУПРЕЖДЕНИЯ ПЕРЕД НАЧАЛОМ</h1>
+		<h3>1. Нужен Android 8+ (лучше Android 10+)</h3>
+		<h3>2. Не менее 3 ГБ свободного места</h3>
+		<h3>3. Стабильная интернет соединение (WI-FI лучше)</h3>
+		<h3>4. Зарядка 50% + (процесс энергоемкий)</h3>
+		<h3>5. Терпение</h3>
+		<h2>Установка Termux</h2>
+		<h3>Termux либо скачиваем с F-Droid либо с GitHub</h3>
+		<div class="button-container">
+			<button id="fdroid">F-Droid</button>
+			<button id="github">GitHub</button>
+		</div>
+		
+		<div class="separator"></div>
+		
+		<h2>Termux</h2>
+		<h3>Дайте termux все разрешения и отключите оптимизацию батареи</h3>
+		<h3>Скачиваем apk файл Termux и заходим</h3>
+		<h3>Первым делом вводим <code>pkg install unzip git</code> Это скачает программу для распоковки zip архивов и скачает программу для GitHub</h3>
+		<h3>Дальше нужен файл install</h3>
+		
+		<div class="separator"></div>
+		
+		<h2>install</h2>
+		<h3>Скачиваем и открываем в Termux</h3>
+		<a href="/install" download="install">
+			<button>Скачать install</button>
+		</a>
+		<h3>Вводим <code>chmod +x install</code> Это даст разрешение для файла</h3>
+		<h3>И запускаем <code>./install</code> Это запускает программу</h3>
+		
+		<div class="separator"></div>
+		
+		<h2>Termux:X11</h2>
+		<h3>Еще надо скачать Termux:X11</h3>
+		<h3>Скачать Termux:X11 нужно с GitHub</h3>
+		<div class="button-container">
+			<button id="git">GitHub</button>
+		</div>
+		<h3>Скачиваем apk файл Termux:X11 и перезаходим в Termux</h3>
+		
+		<div class="separator"></div>
+		
+		<h2>Запуск</h2>
+		<h3>Вводим <code>xstart</code> Запускает XFCE</h3>
+		<h3>И заходим в Termux:X11</h3>
+		
+		<div class="separator"></div>
+		
+		<h1 style="margin-top: 40px; font-size: 2.5em;">Готово! Теперь у вас есть Termux с XFCE</h1>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
