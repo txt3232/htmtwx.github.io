@@ -9,3 +9,11 @@ document.getElementById("github").addEventListener("click", function() {
 document.getElementById("git").addEventListener("click", function() {
 	window.location.href = "https://github.com/termux/termux-x11";
 });
+
+document.getElementById("mygit").addEventListener("click", function() {
+	window.location.href = "https://github.com/txt3232/";
+});
+
+document.getElementById("mytg").addEventListener("click", function() {
+	window.location.href = "https://t.me/txt3232/";
+});
