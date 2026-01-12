@@ -17,3 +17,7 @@ document.getElementById("mygit").addEventListener("click", function() {
 document.getElementById("mytg").addEventListener("click", function() {
 	window.location.href = "https://t.me/txt3232/";
 });
+
+document.getElementById("bio").addEventListener("click", function() {
+	window.location.href = "https://txtbio.netlify.app/";
+});
